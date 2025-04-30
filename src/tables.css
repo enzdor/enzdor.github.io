@@ -8,39 +8,69 @@ html {
 	margin: 0;
 	font-family: arial;
 }
-	
+
+main {
+	min-height: 80vh
+}
+
 h1 {
 	margin: 0.5rem 0;
 	color: #00b100;
-	text-decoration-line: underline;
-	cursor: pointer;
 }
 
 h1 a {
 	all: unset;
+	cursor: pointer;
 }
 
 h2 {
 	color: #008900;
-	text-decoration-line: underline;
 }
 
 h2 a {
 	all: unset
+	text-decoration-line: underline;
 }
 
 h3 {
 	color: #006200;
 	text-decoration-line: underline;
-	cursor: pointer;
 }
 
 h3 a {
-	all: unset
+	all: unset;
+	cursor: pointer;
 }
 
 code, #playground-output, #playground-input{
 	font-family: courier, monospace;
+}
+
+.license {
+	color: grey;
+	font-size: 0.8rem;
+	margin: 0.2rem 0;
+}
+
+.nav-bar {
+	padding: 0.4rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: solid #ececec;
+	border-bottom: solid #ececec;
+}
+
+.nav-bar p {
+	font-size: 1.2rem;
+	margin: 0 1rem 0 0;
+	text-decoration-line: underline;
+	font-weight: bold;
+	color: #009d00;
+}
+
+.nav-bar p a {
+	all: unset;
+	cursor: pointer;
 }
 
 .main-wrapper {
@@ -48,7 +78,7 @@ code, #playground-output, #playground-input{
 }
 
 .wrapper {
-	margin: 0.4rem 0;
+	margin: 1rem 0;
 }
 
 .wrapper h2 {
@@ -60,7 +90,7 @@ code, #playground-output, #playground-input{
 }
 
 .block-item p {
-	margin: 0.2rem;
+	margin: 0.4rem 0rem;
 	padding: 0.2rem;
 	background-color: #ececec;
 }
