@@ -6,7 +6,7 @@ html {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: arial;
+	font-family: mono;
 }
 
 main {
@@ -40,6 +40,10 @@ h3 {
 h3 a {
 	all: unset;
 	cursor: pointer;
+}
+
+ul, ol {
+	padding: 0 2rem;
 }
 
 code, #playground-output, #playground-input{
