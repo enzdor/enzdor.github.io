@@ -6,11 +6,15 @@ html {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: mono;
+	font-family: courier new;
 }
 
 main {
 	min-height: 80vh
+}
+
+p {
+	line-height: 1.6
 }
 
 h1 {
@@ -90,7 +94,7 @@ code, #playground-output, #playground-input{
 }
 
 .main-text p {
-	margin: 0.6rem 0;
+	margin: 0.5em 0 1em 0;
 }
 
 .block-item {
