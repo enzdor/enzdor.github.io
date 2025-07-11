@@ -1,12 +1,13 @@
 html {
-	font-size: 1.15rem;
+	font-size: 1.25rem;
 }
 
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: courier new;
+	font-family: verdana;
+	font-family: courier, courier new, monospace;
 }
 
 main {
@@ -19,16 +20,17 @@ p {
 
 h1 {
 	margin: 0.5rem 0;
-	color: #00b100;
+	color: #009d00;
 }
 
 h1 a {
 	all: unset;
 	cursor: pointer;
+	font-weight: bold;
 }
 
 h2 {
-	color: #008900;
+	color: #009d00;
 }
 
 h2 a {
@@ -37,7 +39,7 @@ h2 a {
 }
 
 h3 {
-	color: #006200;
+	color: #009d00;
 	text-decoration-line: underline;
 }
 
@@ -47,7 +49,7 @@ h3 a {
 }
 
 ul, ol {
-	padding: 0 2rem;
+	padding: 0 0 0 1em;
 }
 
 code, #playground-output, #playground-input{
@@ -71,8 +73,8 @@ code, #playground-output, #playground-input{
 .nav-bar p {
 	font-size: 1.2rem;
 	margin: 0 1rem 0 0;
-	text-decoration-line: underline;
 	font-weight: bold;
+	text-decoration-line: underline;
 	color: #009d00;
 }
 
@@ -86,7 +88,7 @@ code, #playground-output, #playground-input{
 }
 
 .wrapper {
-	margin: 1rem 0;
+	margin: 1rem 0 0 0;
 }
 
 .wrapper h2 {
@@ -98,7 +100,7 @@ code, #playground-output, #playground-input{
 }
 
 .block-item {
-	margin: 0.4rem;
+	margin: 1rem 0 0 0;
 }
 
 .block-item p {
@@ -129,7 +131,7 @@ img {
 }
 
 footer {
-	margin: 1rem;
+	margin: 1rem 0;
 }
 
 table {
