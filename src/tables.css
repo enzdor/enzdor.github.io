@@ -18,7 +18,7 @@ p {
 }
 
 h1 {
-	margin: 0.5rem 0;
+	margin: 0.5rem 0 0 0;
 	color: #009d00;
 }
 
@@ -33,22 +33,26 @@ h2 {
 }
 
 h2 a {
-	all: unset
+	all: unset;
 	text-decoration-line: underline;
+	text-decoration-thickness: 0.1em;
 }
 
 h3 {
 	color: #009d00;
-	text-decoration-line: underline;
 }
 
 h3 a {
 	all: unset;
 	cursor: pointer;
+	text-decoration-line: underline;
+	text-decoration-thickness: 0.1em;
 }
 
-ul, ol {
+.main-text ul, .main-text ol {
+	margin: 0.5em 0 1em 0;
 	padding: 0 0 0 1em;
+	line-height: 1.6;
 }
 
 code, #playground-output, #playground-input{
@@ -96,6 +100,10 @@ code, #playground-output, #playground-input{
 
 .main-text p {
 	margin: 0.5em 0 1em 0;
+}
+
+.main-text p + p{
+	text-indent: 4ch;
 }
 
 .block-item {
