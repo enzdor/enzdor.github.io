@@ -236,26 +236,26 @@ tr:nth-child(odd) td {
 	font-family: "courier prime";
 	font-style: normal;
 	font-weight: normal;
-	src: url("./courier_prime/CourierPrime-Regular.ttf");
+	src: url("./courier_prime/CourierPrime-Regular.woff2");
 }
 
 @font-face {
 	font-family: "courier prime";
 	font-style: normal;
 	font-weight: bold;
-	src: url("./courier_prime/CourierPrime-Bold.ttf");
+	src: url("./courier_prime/CourierPrime-Bold.woff2");
 }
 
 @font-face {
 	font-family: "courier prime";
 	font-style: italic;
 	font-weight: normal;
-	src: url("./courier_prime/CourierPrime-Italic.ttf");
+	src: url("./courier_prime/CourierPrime-Italic.woff2");
 }
 
 @font-face {
 	font-family: "courier prime";
 	font-style: italic;
 	font-weight: bold;
-	src: url("./courier_prime/CourierPrime-BoldItalic.ttf");
+	src: url("./courier_prime/CourierPrime-BoldItalic.woff2");
 }
